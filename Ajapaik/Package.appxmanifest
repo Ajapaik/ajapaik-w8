@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="Ajapaik.Ajapaik" Publisher="CN=C5932940-2E22-498F-A9E5-AA72461FD945" Version="1.0.0.8" />
+  <Properties>
+    <DisplayName>Ajapaik</DisplayName>
+    <PublisherDisplayName>Mittetulundusühing Eesti Fotopärand</PublisherDisplayName>
+    <Logo>Assets/storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Ajapaik.App">
+      <VisualElements DisplayName="Ajapaik" Logo="Assets/Logo.png" SmallLogo="Assets/smalllogo.png" Description="Ajapaik" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets/widelogo.png" ShortName="Ajapaik" />
+        <SplashScreen Image="Assets/splash.png" BackgroundColor="#FFFFFF" />
+      </VisualElements>
+      <Extensions>
+        <Extension Category="windows.search" />
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="location" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+</Package>

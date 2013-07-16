@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutAppText" xml:space="preserve">
+    <value>Rakenduse eesmärk on ülepildistamise lihtsustamine. Rakendus võimaldab kuvada ajaloolisi fotosid poolläbipaistvale kaameravaatele, et oleks võimalik maksimaalse täpsusega ühitada ajalooline ning kaasaegne vaade.
+
+Igal üksikul ajaloolisel fotol on ka eraldi vaade, milles kuvatakse sellele konkreetsele ajaloolisele pildile kasutajate poolt lisatud ülepildistused.
+
+Nii ajaloolisi fotosid kui ka ülepildistusi on võimalik kuvada ka täisekraanvaates.
+Ajaloolise foto vaatest on võimalik siirduda ülepildistamise vaatesse, mis kuvab ajaloolise foto poolläbipaistvalt kasutaja seadme kaameravaate peal.
+
+Ekraanile vajutamine salvestab ülepildistuse, mille kasutaja saab soovi korral Ajapaika valitud ajaloolise foto juurde laadida.</value>
+    <comment>Settings charm</comment>
+  </data>
+  <data name="FbAppId" xml:space="preserve">
+    <value>201052296573134</value>
+    <comment>Asub ItemDetailPage.cs</comment>
+  </data>
+  <data name="FbPermissions" xml:space="preserve">
+    <value>user_about_me</value>
+    <comment>Coma seperated if more</comment>
+  </data>
+  <data name="PrivacyPolicyText" xml:space="preserve">
+    <value>Ajapaiga rakenduse kasutamiseks on vaja internetiühendust, et rakendus saaks piltide kuvamiseks teha päringuid Ajapaik.ee andmebaasist ning laadida üles kasutaja tehtud vanade fotode ülepildistusi.
+
+Rakendus vajab kasutaja asukoha andmeid, et näidata kasutajale talle lähimaid ajaloolisi fotosid. Kui kasutaja laeb üles mõne ajaloolise foto ülepildistuse, siis koos pildiga laetakse Ajapaiga andmebaasi ka pildi tegemise asukoha andmed, et niiviisi koguda täpsemaid andmeid ajalooliste fotode kohta. Muid asukohaandmeid rakendus ei salvesta.
+
+Ülepildistuste lisamiseks Ajapaika peab kasutaja ennast Facebooki kaudu tuvastama.</value>
+    <comment>Settings charm</comment>
+  </data>
+  <data name="TermsOfUseText" xml:space="preserve">
+    <value>Ajapaik vahendab ajaloolisi fotosid muuseumide kogudest, Ajapaik ei anna edasi mingeid õigusi ajalooliste fotode kasutamiseks mujal.
+
+Ajapaiga rakendusega ajalooliste fotode ning kasutajate lisatud ülepildistuste sirvimine on kasutajatele kättesaadav tasuta ning ilma et kasutaja peaks ennast tuvastama.
+
+Kasutaja kinnitab Ajapaika oma ülepildistuse üleslaadimisega, et ta on üleslaetava ülepildistuse autor või omab autoriõigusi teose üldsusele suunamiseks.
+
+Ajapaika üleslaadimisega annab kasutaja ülepildistusele järgmise Creative Commonsi Eesti litsentsi (versioon 3.0): autorile viitamine, jagamine samadel tingimustel (CC BY-SA 3.0).  See tähendab, et üleslaetavat teost (fotot) on õigus kopeerida (reprodutseerida), levitada, esitada ja üldsusele suunata ning teha teosest kohandusi (adaptsioone), töötlusi (arranžeeringuid) ja teisi töötlusi, sh tuletatud teoseid tingimusel, et viidatakse autorile ja teost (fotot) jagatakse samadel tingimustel.
+
+Ajapaiga veebikeskkonnas on kasutaja tehtud ülepildistusel viide mainitud litsentsile ning kasutaja Facebooki profiilipilt ja kasutaja nimi.</value>
+    <comment>Settings charm</comment>
+  </data>
+</root>
